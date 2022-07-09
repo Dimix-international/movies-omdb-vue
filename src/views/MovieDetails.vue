@@ -1,14 +1,13 @@
 <template>
-  <div>movie</div>
+
 </template>
 
 <script>
-
 export default {
-  name: 'App',
+  name: "MovieDetails"
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>
