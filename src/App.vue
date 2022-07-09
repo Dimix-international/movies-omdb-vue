@@ -1,5 +1,5 @@
 <template>
-  <div>movie</div>
+  <router-view />
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const key = '?apikey=b4ae785f';
+const key = `?apikey=${process.env.VUE_APP_OMDB_KEY}`;
 const configOMB = {
     baseURL: `http://www.omdbapi.com${key}`,
 };
